@@ -339,4 +339,31 @@ Diseñar, desarrollar e implantar un Sistema de Gestión de Almacenes multiplata
 
 ---
 
-### 4.
+### 4.2. Objetivos Específicos
+
+1. **Analizar e identificar las necesidades del sector:**
+   - Evaluar las ineficiencias de los procesos manuales en Pymes a partir de datos reales de mercado (estudio con 30 usuarios encuestados).
+   - Definir los requisitos funcionales para los perfiles de Operario, Supervisor y Administrador.
+
+2. **Diseñar la experiencia de usuario y sistema de interfaz adaptativo (UI/UX):**
+   - Crear prototipos interactivos en Figma adaptados a pantallas móviles (PDAs) y de escritorio (Desktop).
+   - Desarrollar un sistema de diseño unificado en Flutter con tokens semánticos (colores, tipografía y componentes industriales) optimizado para reducir la carga cognitiva del operario.
+
+3. **Construir una arquitectura de software robusta y modular:**
+   - Implementar el patrón Modelo-Vista-Controlador (MVC) junto con la capa Data Access Object (DAO) en Java.
+   - Garantizar la mantenibilidad, escalabilidad y la total independencia entre la lógica de negocio y las interfaces gráficas.
+
+4. **Desarrollar el módulo móvil operativo (Flutter Mobile / PDA):**
+   - Implementar la lectura rápida de códigos de barras/QR mediante cámara o lector integrado para operaciones de entrada, salida y traspaso.
+   - Integrar el registro instantáneo de mermas y roturas, emitiendo tickets digitales de devolución.
+   - Incluir utilidades de fichaje de jornada laboral y chat interno en planta para la resolución de incidencias en vivo.
+
+5. **Desarrollar el cuadro de mando de escritorio (Flutter Desktop / Web):**
+   - Diseñar una interfaz adaptativa (*responsive*) mediante Layout Widgets de Flutter (`LayoutBuilder`, `Flex`, `Grid`) para monitores de supervisión.
+   - Integrar la visualización de métricas en tiempo real (KPIs), alertas de stock bajo, historial de movimientos y gestión de roles/usuarios.
+
+6. **Integrar la capa de datos e infraestructura local:**
+   - Diseñar e implementar el modelo relacional de datos en SQLite utilizando conectores nativos de Flutter (`sqflite` / `drift`).
+   - Garantizar rendimiento inmediato, cero latencia de red y capacidad de trabajo sin conexión a internet (*offline-first*).
+
+---
