@@ -370,8 +370,72 @@ Diseñar, desarrollar e implantar un Sistema de Gestión de Almacenes multiplata
 
 ---
 
-### 5. Alcance del proyecto
+## 5. Alcance del proyecto
 
+### 5.1. Problema y Usuarios Objetivo
+Definir el alcance de **StockScan SGA** permite acotar las capacidades del sistema para asegurar que todo el equipo trabaje bajo los mismos criterios de entrega:
+
+* **Problema que aborda:** Muchas Pymes gestionan el inventario mediante papel o hojas de cálculo (Excel), lo que genera lentitud, errores de recuento y falta de visibilidad en tiempo real.
+* **Sectores de aplicación:** Logística y distribución, comercio minorista, e-commerce y hostelería.
+
+**Perfil y Necesidades por Rol:**
+| Rol | Necesidades Principales |
+| :--- | :--- |
+| **Administrador** | Visión global del stock, informes, alertas de stock bajo, gestión de usuarios y cuadrante de tareas. |
+| **Supervisor** | Coordinar los movimientos del turno, supervisar mermas y validar ajustes de inventario. |
+| **Operario / Camarero** | Escaneo rápido de códigos QR/barras, registro de entradas/salidas, fichaje y comunicación. |
+
+---
+
+### 5.2. Funcionalidades Incluidas (Dentro del Alcance)
+
+| Módulo | Descripción | Prioridad |
+| :--- | :--- | :--- |
+| **Escáner móvil** | Identificar productos y estanterías mediante la cámara integrada o lector PDA. | 🔴 Imprescindible |
+| **Control de Stock** | Consulta de inventario, ubicaciones, niveles de stock y valores mínimos. | 🔴 Imprescindible |
+| **Trazabilidad** | Historial de entradas, salidas, traspasos, picking y ajustes de inventario. | 🔴 Imprescindible |
+| **Alertas de stock** | Notificaciones automáticas de stock bajo o agotado. | 🟠 Importante |
+| **Etiquetas** | Generación y exportación de etiquetas con código QR / Barras. | 🟠 Importante |
+| **Mapa de almacén** | Vista 2D de estanterías y nivel de ocupación visual. | 🟠 Importante |
+| **Dashboard** | Cuadro de mando con indicadores (KPIs) y actividad diaria. | 🟠 Importante |
+| **Chat interno** | Comunicación entre administración y planta por canales o chats directos. | 🟠 Importante |
+| **Agenda y Check-in** | Gestión de turnos, asignación de tareas y registro de asistencia (*fichaje*). | 🟠 Importante |
+| **Gestión de equipo** | Alta, baja y edición de operarios y perfiles de acceso. | 🟡 Deseable |
+
+---
+
+### 5.3. Funcionalidades Fuera del Alcance (Exclusiones)
+
+Para garantizar la viabilidad del Producto Mínimo Viable (MVP) en los plazos estipulados, se excluyen de forma explícita las siguientes características:
+* Integración con ERPs comerciales (SAP, Odoo, Sage) o sistemas contables externos.
+* Pasarelas de pago, facturación legal o cobro a clientes.
+* Compra automática a proveedores (únicamente se generará la propuesta de pedido).
+* Reconocimiento óptico de imágenes sin código de barras/QR.
+* Lectura mediante tecnología RFID / NFC.
+* Informes predictivos basados en Inteligencia Artificial o Machine Learning.
+
+---
+
+### 5.4. Plataformas, Supuestos y Restricciones
+
+* **Plataformas Objetivo:** App Móvil (Flutter Mobile) para operarios en planta y Panel de Gestión (Flutter Desktop / Web) para administradores y supervisores.
+* **Supuestos:**
+  - Los operarios disponen de un dispositivo móvil o terminal PDA con cámara funcional.
+  - Las ubicaciones y productos cuentan con etiquetas impresas de código de barras o QR.
+  - El sistema gestionará la operativa de una sede/almacén único por empresa en esta versión.
+* **Restricciones y Riesgos:**
+  - Desarrollo acotado a las fases del Proyecto Intermodular de 2º DAM.
+  - En entornos con iluminación deficiente en almacén, se dispondrá de apoyo de linterna en la app o lectura por hardware dedicado.
+
+---
+
+### 5.5. Criterios de Éxito
+
+El proyecto se considerará finalizado con éxito cuando se cumplan las siguientes condiciones:
+1. Un operario pueda escanear un producto desde la app móvil y registrar su movimiento de forma inmediata.
+2. El administrador visualice en tiempo real la actualización del stock y sus respectivas alertas en el panel de escritorio.
+3. Se ejecute el registro de jornada laboral (*check-in*) y la asignación de tareas sin errores de sincronización local.
+4. El repositorio mantenga la documentación completa, pruebas unitarias y código publicado en fecha.
 ---
 
 ## 6. Limitaciones y exclusiones
