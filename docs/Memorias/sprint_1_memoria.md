@@ -37,6 +37,8 @@
    * [6.1. Limitaciones del Sistema (Factores Condicionantes)](#61-limitaciones-del-sistema-factores-condicionantes)
    * [6.2. Exclusiones del Alcance](#62-exclusiones-del-alcance)
 7. [Estructura de la Memoria](#7-estructura-de-la-memoria)
+8. [Puntos a Mejorar](#8-puntos-a-mejorar)
+9. [Coevaluación del Equipo](#9-coevaluación-del-equipo)
 
 ---
 
@@ -405,3 +407,11 @@ Las exclusiones definen qué módulos o procesos de la logística industrial **n
 
 * **Algoritmos Avanzados de Rutas:**
   La asignación de ubicaciones de mercancía se realizará mediante reglas estáticas fijas definibles por el supervisor.
+
+---
+
+## 8. Puntos a mejorar
+
+---
+
+## 9. Coevaluación del equipo
