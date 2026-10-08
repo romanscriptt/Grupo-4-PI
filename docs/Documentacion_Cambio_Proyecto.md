@@ -67,6 +67,8 @@ La finalidad de este nuevo proyecto fue disponer de un Sprint 1 con una estructu
   <img width="1425" height="826" alt="Captura de pantalla Estructura Actual" src="screenshots/Cap3-EstructuraActual.webp" /> 
 </div><br>
 
+[Ir a Observaciones](#4-observaciones)<br>
+
 ### 3.2. Tablas:
 
 #### 3.2.1. **Primer Proyecto:**
@@ -81,6 +83,8 @@ La finalidad de este nuevo proyecto fue disponer de un Sprint 1 con una estructu
 <div align="center">
   <img width="1495" height="639" alt="Captura de pantalla Tabla Actual" src="screenshots/Cap4-HistorialActual.webp" /> 
 </div><br>
+
+[Ir a Observaciones](#4-observaciones)<br>
 
 ### 3.3. Cronogramas:
 
