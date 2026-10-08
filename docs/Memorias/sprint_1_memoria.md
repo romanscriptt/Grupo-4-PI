@@ -367,3 +367,41 @@ Diseñar, desarrollar e implantar un Sistema de Gestión de Almacenes multiplata
    - Garantizar rendimiento inmediato, cero latencia de red y capacidad de trabajo sin conexión a internet (*offline-first*).
 
 ---
+
+### 5. Alcance del proyecto
+
+---
+
+## 6. Limitaciones y exclusiones
+
+### 6.1. Limitaciones del Sistema (Factores Condicionantes)
+Las limitaciones representan restricciones técnicas, operativas o de entorno bajo las cuales funcionará StockScan SGA:
+
+* **Entorno de Red Local y Conectividad:**
+  La aplicación móvil para operarios requiere conectividad continua Wi-Fi. Se asume una cobertura de red estable dentro del almacén, excluyendo la sincronización *offline* o la persistencia local en cola dentro del dispositivo móvil en este MVP.
+
+* **Hardware de Escaneo:**
+  El escaneo de códigos de barras/QR en la versión móvil dependerá exclusivamente de la cámara integrada del *smartphone* o PDA mediante librerías de visión por computador.
+
+* **Gestión de Impresión:**
+  La generación de etiquetas se limitará a la importación de los tickets a la aplicación para llevar a cabo la contabilidad de los materiales que se importen al inventario del almacén y poder manejar las posibles pérdidas.
+
+---
+
+### 6.2. Exclusiones del Alcance
+Las exclusiones definen qué módulos o procesos de la logística industrial **no formarán parte del entregable** para acotar el desarrollo al Mínimo Viable (MVP):
+
+* **Módulos Secundarios de la Interfaz:**
+  Los módulos de Agenda y Chat interno quedan excluidos del alcance funcional principal del proyecto intermodular, pasando a considerarse posibles líneas de trabajo futuro para centrar el esfuerzo en la lógica logística (Stock, Ubicaciones, Trazabilidad y Alertas).
+
+* **Logística Externa y Transporte:**
+  No se contempla la integración con APIs de agencias de transporte ni el seguimiento de flotas fuera de las instalaciones físicas del almacén.
+
+* **Integración ERP / Software de Terceros:**
+  El sistema funcionará de forma independiente. No se desarrollarán conectores o *middleware* de integración automatizada con ERPs comerciales (SAP, Sage, Odoo) ni plataformas de *e-commerce* (WooCommerce, Shopify).
+
+* **Gestión de Pasarelas de Pago y Facturación:**
+  El sistema gestionará movimientos físicos de almacén y unidades en stock, pero no incluirá módulos de contabilidad, emisión de facturas legales ni cobro a clientes.
+
+* **Algoritmos Avanzados de Rutas:**
+  La asignación de ubicaciones de mercancía se realizará mediante reglas estáticas fijas definibles por el supervisor.
