@@ -508,3 +508,13 @@ A continuación se detalla el guión de trabajo explícito que se va a seguir pa
 ---
 
 ## 9. Coevaluación del equipo
+## 9. Coevaluación del equipo
+
+A continuación se presenta el balance del trabajo colaborativo del grupo (**Grupo 4**) durante la elaboración del **Capítulo I** y la planificación del *Sprint 1*:
+
+| Miembro del Equipo | Usuario GitHub | Secciones Asignadas (Capítulo I) | Desempeño |
+| :--- | :--- | :--- | :--- |
+| **Álvaro** | `@romanscriptt` | 4.2 Objetivos Específicos · 7 Estructura de la Memoria | 90 % |
+| **Elena** | `@elenasaez25` | 2 Problema Detectado · 3 Propuesta de Solución | 90 % |
+| **Ángel Luis** | `@angelluissanchez25` | 4.1 Objetivo General · 6 Limitaciones y Exclusiones | 85 % |
+| **Carmen** | `@carmenmonge25` | 1 Contexto del Proyecto · 5 Alcance del Proyecto | 80 % |
