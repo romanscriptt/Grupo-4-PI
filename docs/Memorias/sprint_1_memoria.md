@@ -410,6 +410,30 @@ Las exclusiones definen qué módulos o procesos de la logística industrial **n
 
 ---
 
+## 7. Estructura de la memoria
+
+A continuación se detalla el guión de trabajo explícito que se va a seguir para la elaboración de la memoria técnica del proyecto **StockScan SGA**, estructurado por capítulos y fases metodológicas:
+
+* **Capítulo I: Introducción:**  
+  Contextualización del sector logístico, diagnóstico del problema a partir de datos de mercado ($N=30$), propuesta de solución (StockScan SGA), definición de objetivos (general y específicos), alcance, limitaciones/exclusiones y estructura de la memoria.
+
+* **Capítulo II: Análisis del Dominio y Requisitos:**  
+  Clasificación de empresas tipo, análisis de la competencia (*benchmarking* de soluciones existentes), especificación de requisitos funcionales mediante casos de uso (perfiles Operario, Supervisor y Administrador) y requisitos no funcionales (rendimiento, disponibilidad y seguridad).
+
+* **Capítulo III: Diseño de Interfaz y Experiencia de Usuario (UI/UX):**  
+  Definición de la arquitectura visual, creación del *Design System* (tokens semánticos, paleta cromática de alto contraste y tipografía industrial), prototipado interactivo en Figma y flujos de navegación optimizados para terminales móviles/PDAs y monitores *Desktop*.
+
+* **Capítulo IV: Arquitectura Técnica y Modelo de Datos:**  
+  Diseño arquitectónico basado en el patrón MVC, diagrama de clases, modelo Entidad-Relación y definición del esquema relacional de datos en SQLite con conectores de persistencia local.
+
+* **Capítulo V: Desarrollo e Implementación:**  
+  Construcción de módulos y componentes en Flutter (Mobile y Desktop/Web), implementación de la lógica del controlador, gestión de eventos, integración de lectura de códigos QR/barras y notificaciones operativas.
+
+* **Capítulo VI: Pruebas, Conclusiones y Vías Futuras:**  
+  Batería de pruebas unitarias y de integración, validación de resultados frente a los objetivos iniciales del proyecto y definición de líneas de trabajo futuro (modo *offline*, módulos de chat/agenda).
+
+---
+
 ## 8. Puntos a mejorar
 
 ---
