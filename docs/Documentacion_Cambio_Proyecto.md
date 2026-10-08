@@ -1,6 +1,6 @@
-## Documentación del cambio de proyecto
+# Documentación del cambio de proyecto
 
-### 1. Introducción
+## 1. Introducción
 
 Durante el desarrollo del Proyecto Intermodular se utilizó inicialmente un proyecto Kanban denominado “PI Proyecto”, en el que el equipo comenzó a trabajar y a desarrollar diferentes tareas relacionadas con el proyecto.
 
@@ -10,7 +10,7 @@ Por este motivo, se decidió crear un nuevo proyecto Kanban denominado “PROYEC
 
 Este cambio no supone el inicio del proyecto desde cero, sino una reorganización y continuación del trabajo realizado previamente para adaptarlo a los requisitos establecidos.
 
-### 2. Motivo de la creación de “PROYECTO INTERMODULAR”
+## 2. Motivo de la creación de “PROYECTO INTERMODULAR”
 
 El proyecto “PI Proyecto” fue utilizado por el equipo durante la primera fase del desarrollo. En él se puede comprobar que los cuatro integrantes comenzaron a trabajar en el Sprint 1 y realizaron tareas relacionadas con su desarrollo.
 
@@ -36,6 +36,24 @@ La finalidad de este nuevo proyecto fue disponer de un Sprint 1 con una estructu
 - 1.6. Limitaciones y exclusiones
 - 1.7. Estructura de la memoria
   
+## 3. Comparación estructuras
+
+### 3.1. **Estructura Primer Proyecto:**
+
+<div align="center">
+  <img width="1408" height="828" alt="Captura de pantalla Estructura Inicial" src="screenshots/Cap1-EstructuraInicial.webp" /> 
+</div><br>
+
+### 3.2. **Estructura Proyecto Actual:**
+
+<div align="center">
+  <img width="1425" height="826" alt="Captura de pantalla Estructura Actual" src="screenshots/Cap3-EstructuraActual.webp" /> 
+</div><br>
+
+### 3.3. Observaciones:
+
+Como podemos observar, la [primera imagen](#31-estructura-primer-proyecto) presenta un proyecto Kanban sin terminar compuesto por 32 tareas que no cumplen con la estructura requerida. Mientras que en la [segunda foto](#32-estructura-proyecto-actual), encontramos un proyecto Kanban acabado, con la estructura requerida, con tan solo 13 tareas.
+
 
 
 
